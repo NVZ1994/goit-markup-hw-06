@@ -421,8 +421,8 @@
         <div class="subscription">
           <p>Підпишіться на розсилку</p>
           <form action="">
-          <input type="email" placeholder="E-mail" required>
-          <button type="submit" class="btn">Підписатися</button>
+            <input type="email" placeholder="E-mail" required />
+            <button type="submit" class="btn">Підписатися</button>
           </form>
         </div>
       </div>
@@ -431,43 +431,64 @@
       <div class="modal">
         <p>Залиште свої дані, ми вам передзвонимо</p>
         <form action="" class="modal-form">
-            <div class="form-element">
-              <label for="user-name">Ім'я</label>
-              <div class="input-wrap">
+          <div class="form-element">
+            <label for="user-name">Ім'я</label>
+            <div class="input-wrap">
               <svg class="form-icon">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
-              <input type="text" name="user-name" id="user-name" minlength="2" />
-              </div>
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                minlength="2"
+              />
             </div>
-            <div class="form-element">
-              <label for="user-tel">Телефон</label>
-              <div class="input-wrap">
+          </div>
+          <div class="form-element">
+            <label for="user-tel">Телефон</label>
+            <div class="input-wrap">
               <svg class="form-icon">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
               <input type="tel" name="user-tel" id="user-tel" />
-              </div>
             </div>
-            <div class="form-element">
-              <label for="user-email">Пошта</label>
-              <div class="input-wrap">
+          </div>
+          <div class="form-element">
+            <label for="user-email">Пошта</label>
+            <div class="input-wrap">
               <svg class="form-icon">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
               <input type="email" name="user-email" id="user-email" />
-              </div>
             </div>
-            <div class="form-element">
-              <label for="comment">Коментар</label>
-              <textarea name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea> 
-            </div>
+          </div>
+          <div class="form-element">
+            <label for="comment">Коментар</label>
+            <textarea
+              name="comment"
+              id="comment"
+              rows="10"
+              placeholder="Введіть текст"
+            ></textarea>
+          </div>
           <div class="accept">
-            <input type="checkbox" name="terms" id="checkbox" class="visually-hidden" required>
-            <label for="checkbox"><div class="checkbox"><svg width="11" height="8">
-                <use href="./images/icons.svg#icon-tick"></use>
-              </svg>
-            </div>Погоджуюся з розсилкою та приймаю <a href=""> Умови договору</a></label>
+            <input
+              type="checkbox"
+              name="terms"
+              id="checkbox"
+              class="visually-hidden"
+              required
+            />
+            <label for="checkbox"
+              ><div class="checkbox">
+                <svg width="11" height="8">
+                  <use href="./images/icons.svg#icon-tick"></use>
+                </svg>
+              </div>
+              Погоджуюся з розсилкою та приймаю
+              <a href=""> Умови договору</a></label
+            >
           </div>
           <div class="btn-wrap">
             <button type="submit" class="btn submit-btn">Відправити</button>
