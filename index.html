@@ -426,22 +426,37 @@
         <form action="" class="modal-form">
             <div class="form-element">
               <label for="user-name">Ім'я</label>
+              <div class="input-wrap">
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
               <input type="text" name="user-name" id="user-name" minlength="2" />
+              </div>
             </div>
             <div class="form-element">
               <label for="user-tel">Телефон</label>
+              <div class="input-wrap">
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
               <input type="tel" name="user-tel" id="user-tel" />
+              </div>
             </div>
             <div class="form-element">
               <label for="user-email">Пошта</label>
+              <div class="input-wrap">
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
               <input type="email" name="user-email" id="user-email" />
+              </div>
             </div>
             <div class="form-element">
               <label for="comment">Коментар</label>
               <textarea name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea> 
             </div>
           <div class="checkbox">
-            <input type="checkbox" name="terms" id="checkbox">
+            <input type="checkbox" name="terms" id="checkbox" required>
             <label for="checkbox">Погоджуюся з розсилкою та приймаю <a href="https://www.upcounsel.com/what-are-the-terms-of-a-contract">Умови договору</a></label>
             </div>
           <div class="btn-wrap">
@@ -451,7 +466,7 @@
         </form>
         <button type="button" data-modal-close class="modal-close">
           <svg width="18px" height="18px" class="close-icon">
-            <use href="./images/icons.svg#icon-send"></use>
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
       </div>
