@@ -455,10 +455,13 @@
               <label for="comment">Коментар</label>
               <textarea name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea> 
             </div>
-          <div class="checkbox">
-            <input type="checkbox" name="terms" id="checkbox" required>
-            <label for="checkbox">Погоджуюся з розсилкою та приймаю <a href="https://www.upcounsel.com/what-are-the-terms-of-a-contract">Умови договору</a></label>
-            </div>
+          <div class="accept">
+            <input type="checkbox" name="terms" id="checkbox" class="visually-hidden" required>
+            <label for="checkbox"><div class="checkbox"><svg width="11" height="8">
+                <use href="./images/icons.svg#icon-tick"></use>
+              </svg>
+            </div>Погоджуюся з розсилкою та приймаю <a href=""> Умови договору</a></label>
+          </div>
           <div class="btn-wrap">
             <button type="submit" class="btn submit-btn">Відправити</button>
           </div>
