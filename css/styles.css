@@ -786,6 +786,7 @@ label {
 label a {
   color: var(--accent-text-color);
   text-decoration-line: underline;
+  padding-left: 4px;
 }
 
 .accept {
