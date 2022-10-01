@@ -19,6 +19,7 @@
   --backdrop-background: rgba(0, 0, 0, 0.2);
   --close-color: #000;
   --close-btn-border: rgba(0, 0, 0, 0.1);
+  --input-border: rgba(33, 33, 33, 0.2);
 }
 
 /* общее на всем доке */
@@ -86,7 +87,7 @@ header {
   padding: 24px 0 25px 0;
 }
 
-span {
+a span {
   color: var(--accent-text-color);
 }
 
@@ -696,6 +697,7 @@ footer .fact {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 40px;
   transform: translate(-50%, -50%);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -721,6 +723,15 @@ footer .fact {
   border-radius: 50%;
 }
 
+.modal p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--title-text-color);
+  margin-bottom: 12px;
+}
+
 .close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -729,3 +740,75 @@ footer .fact {
 .modal-close:hover svg {
   fill: var(--accent-text-color);
 }
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 0;
+  outline: 2px solid #f44336;
+}
+
+.form-element > textarea {
+  margin-bottom: 20px;
+}
+
+.form-element input {
+  border: none;
+  height: 40px;
+  padding-left: 42px;
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  outline: none;
+}
+.form-element input:focus {
+  outline: 1px solid var(--accent-text-color);
+}
+
+.form-element textarea {
+  border: none;
+  padding: 12px 16px;
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  resize: none;
+  width: 100%;
+  height: 120px;
+  outline:none;
+}
+
+.form-element textarea:focus {
+  outline: 1px solid var(--accent-text-color);
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+label a {
+  color: var(--accent-text-color);
+  text-decoration-line: underline;
+}
+
+.checkbox {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-wrap label {
+  margin-bottom: 30px;
+}
+
+.submit-btn {
+  text-align: center;
+  padding: 10px 52px;
+  background-color: var(--accent-text-color);
+  color: var(--primary-white-color);
+}
+
+
