@@ -422,7 +422,9 @@
           <p>Підпишіться на розсилку</p>
           <form action="">
             <input type="email" placeholder="E-mail" required />
-            <button type="submit" class="btn">Підписатися</button>
+            <button type="submit" class="btn subscription-btn">Підписатися<svg class="icon-send">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg></button>
           </form>
         </div>
       </div>
@@ -451,7 +453,7 @@
               <svg class="form-icon">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
-              <input type="tel" name="user-tel" id="user-tel" />
+              <input type="tel" name="user-tel" id="user-tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
             </div>
           </div>
           <div class="form-element">
@@ -468,7 +470,6 @@
             <textarea
               name="comment"
               id="comment"
-              rows="10"
               placeholder="Введіть текст"
             ></textarea>
           </div>
