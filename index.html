@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="uk">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>WebStudio</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
   </head>
 
   <body>
@@ -124,13 +122,13 @@
           <ul class="activities">
             <li class="activities-item">
               <div class="box">
-                <img src="./images/img1.jpg" alt="desctop apps" width="370" />
+                <img src="./images/img1.jpg" alt="desctop apps" width="370" >
                 <p class="description">Десктопні додатки</p>
               </div>
             </li>
             <li class="activities-item">
               <div class="box">
-                <img src="./images/img2.jpg" alt="mobile apps" width="370" />
+                <img src="./images/img2.jpg" alt="mobile apps" width="370" >
                 <p class="description">Мобільні додатки</p>
               </div>
             </li>
@@ -140,7 +138,7 @@
                   src="./images/img3.jpg"
                   alt="design solutions"
                   width="370"
-                />
+                >
                 <p class="description">Дизайнерські рішення</p>
               </div>
             </li>
@@ -157,7 +155,7 @@
                 alt="product designer photo"
                 width="270"
                 class="person"
-              />
+              >
               <div>
                 <h3 class="title">Ігор Дем'яненко</h3>
                 <p class="job">Product Designer</p>
@@ -197,7 +195,7 @@
                 alt="frontend developer photo"
                 width="270"
                 class="person"
-              />
+              >
               <div>
                 <h3 class="title">Ольга Рєпіна</h3>
                 <p class="job">Frontend Developer</p>
@@ -237,7 +235,7 @@
                 alt="marketing manager photo"
                 width="270"
                 class="person"
-              />
+              >
               <div>
                 <h3 class="title">Микола Тарасов</h3>
                 <p class="job">Marketing</p>
@@ -277,7 +275,7 @@
                 alt="ui designer photo"
                 width="270"
                 class="person"
-              />
+              >
               <div>
                 <h3 class="title">Михайло Єрмаков</h3>
                 <p class="job">UI Designer</p>
@@ -421,10 +419,12 @@
         <div class="subscription">
           <p>Підпишіться на розсилку</p>
           <form action="">
-            <input type="email" placeholder="E-mail" required />
-            <button type="submit" class="btn subscription-btn">Підписатися<svg class="icon-send">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg></button>
+            <input type="email" placeholder="E-mail" required >
+            <button type="submit" class="btn subscription-btn">
+              Підписатися<svg class="icon-send">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -444,7 +444,8 @@
                 name="user-name"
                 id="user-name"
                 minlength="2"
-              required/>
+                required
+              >
             </div>
           </div>
           <div class="form-element">
@@ -453,7 +454,14 @@
               <svg class="form-icon">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
-              <input type="tel" name="user-tel" id="user-tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required title="Введіть коректний номер телефону за форматом (1234567890)"/>
+              <input
+                type="tel"
+                name="user-tel"
+                id="user-tel"
+                pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                required
+                title="Введіть коректний номер телефону за форматом (1234567890)"
+              >
             </div>
           </div>
           <div class="form-element">
@@ -462,7 +470,7 @@
               <svg class="form-icon">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
-              <input type="email" name="user-email" id="user-email" required/>
+              <input type="email" name="user-email" id="user-email" required >
             </div>
           </div>
           <div class="form-element">
@@ -479,17 +487,14 @@
               name="terms"
               id="checkbox"
               class="visually-hidden"
-              required
-            />
-            <label for="checkbox"
-              ><div class="checkbox">
+              required >
+            <label for="checkbox">
+              <div class="checkbox">
                 <svg width="11" height="8">
                   <use href="./images/icons.svg#icon-tick"></use>
                 </svg>
-              </div>
-              Погоджуюся з розсилкою та приймаю
-              <a href=""> Умови договору</a></label
-            >
+              </div>Погоджуюся з розсилкою та приймаю<a href=""> Умови договору</a>
+            </label>
           </div>
           <div class="btn-wrap">
             <button type="submit" class="btn submit-btn">Відправити</button>
