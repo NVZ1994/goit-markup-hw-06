@@ -829,7 +829,7 @@ input::placeholder {
   outline: 1px solid var(--accent-text-color);
 }
 
-label {
+.form-element label {
   margin-bottom: 4px;
 }
 
@@ -847,7 +847,7 @@ label a {
   position: relative;
 }
 
-.accept label {
+.accept + label {
   display: flex;
   justify-content: center;
 }
@@ -867,10 +867,6 @@ label a {
   bottom: 50%;
   transform: translate(-50%, -50%);
   left: 15px;
-}
-
-.checkbox label {
-  margin: 0;
 }
 
 .accept input:checked +label +.checkbox {
