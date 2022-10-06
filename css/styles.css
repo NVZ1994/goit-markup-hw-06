@@ -28,6 +28,7 @@
 }  */
 
 img {
+
   display: block;
 }
 
@@ -650,7 +651,7 @@ footer .fact {
 
 .subscription {
   margin-left: auto;
-  display: ;
+  display:
 }
 
 .subscription form {
